@@ -1,0 +1,9 @@
+[
+    uuid(12345678-1234-1234-1234-1234567890AB),
+    version(1.0),
+    pointer_default(unique)
+]
+interface TrayRpc
+{
+    boolean StopService([in] handle_t hBinding);
+}
